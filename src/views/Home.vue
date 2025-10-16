@@ -3,16 +3,22 @@
         <h1>VUE教学</h1>
         <hr>
         <Mobanyufa> </Mobanyufa>
+        <Shuxingbangding></Shuxingbangding>
+        <Tiaojianxuanran></Tiaojianxuanran>
     </div>
 </template>
 
 <script>
 import Mobanyufa from '@/components/mobanyufa.vue';
+import Shuxingbangding from '../components/shuxingbangding.vue';
+import Tiaojianxuanran from '../components/tiaojianxuanran.vue';
 
 export default {
     name: 'home',
     components: {
-        Mobanyufa
+        Mobanyufa,
+        Shuxingbangding,
+        Tiaojianxuanran
     },
 }
 
