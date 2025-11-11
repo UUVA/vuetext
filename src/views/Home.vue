@@ -9,6 +9,18 @@
         <Keyguanlizhuangtai></Keyguanlizhuangtai>
         <Shijianchuancan></Shijianchuancan>
         <Shijianchuli></Shijianchuli>
+        <Jisuanshuxing></Jisuanshuxing>
+        <Watchzhenting></Watchzhenting>
+        <Mobanyinyong></Mobanyinyong>
+        <Zujianzucheng></Zujianzucheng>
+        <Zujianqiantao></Zujianqiantao>
+        <Zujianchuanzhiprops></Zujianchuanzhiprops>
+        <PropsjiaoyanA></PropsjiaoyanA>
+        <Zujianshijian></Zujianshijian>
+        <ZujianshijianVmodel></ZujianshijianVmodel>
+        <Chacaoslots></Chacaoslots>
+        <Shengmingzhouqi></Shengmingzhouqi>
+        <Shengmingzhouqiyingyong></Shengmingzhouqiyingyong>
     </div>
 </template>
 
@@ -16,10 +28,26 @@
 import Mobanyufa from '../components/mobanyufa.vue';
 import Shuxingbangding from '../components/shuxingbangding.vue';
 import Tiaojianxuanran from '../components/tiaojianxuanran.vue';
-import Liebiaoxuanran from '../components/libiaoxuanran.vue';
+import Liebiaoxuanran from '../components/liebiaoxuanran.vue';
 import Keyguanlizhuangtai from '../components/keyguanlizhuangtai.vue';
 import Shijianchuancan from '../components/shijianchuancan.vue';
 import Shijianchuli from '../components/shijianchuli.vue';
+import Jisuanshuxing from '../components/jisuanshuxing.vue';
+import Watchzhenting from '../components/watchzhenting.vue';
+import Classbangding from '../components/classbangding.vue';
+import Shijianxiushifu from '../components/shijianxiushifu.vue';
+import Shuzubianhuazhence from '../components/shuzubianhuazhence.vue';
+import Stylebangding from '../components/stylebangding.vue';
+import Mobanyinyong from '../components/mobanyinyong.vue';
+import Zujianzucheng from '../components/zujianzucheng.vue';
+import Zujianqiantao from '../components/zujianqiantao.vue';
+import Zujianchuanzhiprops from '../components/zujianchuanzhiprops.vue';
+import PropsjiaoyanA from '../components/prosjiaoyanA.vue';
+import Zujianshijian from '../components/zujianshijian.vue';
+import ZujianshijianVmodel from '../components/zujianshijianVmodel.vue';
+import Chacaoslots from '../components/chacaoslots.vue';
+import Shengmingzhouqi from '../components/shengmingzhouqi.vue';
+import Shengmingzhouqiyingyong from '../components/shengmingzhouqiyingyong.vue';
 
 export default {
     name: 'home',
@@ -30,8 +58,24 @@ export default {
         Liebiaoxuanran,
         Keyguanlizhuangtai,
         Shijianchuancan,
-        Shijianchuli
-
+        Shijianchuli,
+        Shijianxiushifu,
+        Jisuanshuxing,
+        Classbangding,
+        Shuzubianhuazhence,
+        Stylebangding,
+        Watchzhenting,
+        Mobanyinyong,
+        Zujianzucheng,
+        Zujianqiantao,
+        Zujianchuanzhiprops,
+        PropsjiaoyanA,
+        Zujianshijian,
+        ZujianshijianVmodel,
+        Chacaoslots,
+        Shengmingzhouqi,
+        Shengmingzhouqiyingyong
+        
     },
 }
 

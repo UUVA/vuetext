@@ -2,17 +2,19 @@
   <div id="app">
     <H3>VUE3VUE3</H3>
     <Home></Home>
-
+    <BackgroundEffect></BackgroundEffect>
   </div>
 </template>
 
 <script>
 import Home from './views/Home.vue';
+import BackgroundEffect from './components/BackgroundEffect.vue';
 
 export default {
   name: 'App',
   components: {
     Home,
+    BackgroundEffect,
   },
 };
 
