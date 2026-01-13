@@ -5,23 +5,26 @@
             <router-link to="/" class="nav-link">返回首页</router-link>
         </nav>
         <hr>
-        <zuheshijianchuli></zuheshijianchuli>
-        <zuhezhentingqi></zuhezhentingqi>
-        <zuhexiangyingshi></zuhexiangyingshi>
-        <zuhejisuanshuxing></zuhejisuanshuxing>
-        <zuhemobanyingyong></zuhemobanyingyong>
-        <zuheshengmingzhouqi></zuheshengmingzhouqi>
+        <Zuheshijianchuli></Zuheshijianchuli>
+        <Zuhezhentingqi></Zuhezhentingqi>
+        <Zuhexiangyingshi></Zuhexiangyingshi>
+        <Zuhejisuanshuxing></Zuhejisuanshuxing>
+        <Zuhemobanyingyong></Zuhemobanyingyong>
+        <Zuheshengmingzhouqi></Zuheshengmingzhouqi>
+        <ZuheProps></ZuheProps>
+        <Usepinia></Usepinia>
     </div>
 </template>
 
 <script>
-import zuheshijianchuli from "../newcomponents/zuheshijianchuli.vue";
-import zuhezhentingqi from "../newcomponents/zuheshizhentingqi.vue";
-import zuhexiangyingshi from "../newcomponents/zuhexiangyingshi.vue";
-import zuhejisuanshuxing from "../newcomponents/zuhejisuanshuxing.vue";
-import zuhemobanyingyong from "../newcomponents/zuhemobanyingyong.vue";
-import zuheshengmingzhouqi from "../newcomponents/zuheshengmingzhouqi.vue";
-
+import Zuheshijianchuli from "../newcomponents/zuheshijianchuli.vue";
+import Zuhezhentingqi from "../newcomponents/zuheshizhentingqi.vue";
+import Zuhexiangyingshi from "../newcomponents/zuhexiangyingshi.vue";
+import Zuhejisuanshuxing from "../newcomponents/zuhejisuanshuxing.vue";
+import Zuhemobanyingyong from "../newcomponents/zuhemobanyingyong.vue";
+import Zuheshengmingzhouqi from "../newcomponents/zuheshengmingzhouqi.vue";
+import ZuheProps from "../newcomponents/zuheProps.vue";
+import Usepinia from "../newcomponents/usepinia.vue";
 
 export default {
     name: "New",
@@ -31,12 +34,14 @@ export default {
         };
     },
     components: {
-        zuheshijianchuli,
-        zuhezhentingqi,
-        zuhexiangyingshi,
-        zuhejisuanshuxing,
-        zuhemobanyingyong,
-        zuheshengmingzhouqi,
+        Zuheshijianchuli,
+        Zuhezhentingqi,
+        Zuhexiangyingshi,
+        Zuhejisuanshuxing,
+        Zuhemobanyingyong,
+        Zuheshengmingzhouqi,
+        ZuheProps,
+        Usepinia,
     },
     mounted() {
         setTimeout(() => {
